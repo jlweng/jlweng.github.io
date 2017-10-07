@@ -1,0 +1,38 @@
+body {
+	background-color: #e0f4d7;
+}
+
+.selected, .selected:hover {
+	color: #bce8a9;
+}
+
+hr {
+	background-image: linear-gradient(to right, #8d9b87, #40473e, #8d9b87);
+}
+
+#Copenhagen { background: url("https://i.imgur.com/v4E9xUL.png") center no-repeat; background-size: cover; }
+#Berlin { background: url("https://i.imgur.com/t0BtJNf.png") center no-repeat; background-size: cover; }
+#Prague { background: url("https://i.imgur.com/UW1PVXX.png") center no-repeat; background-size: cover; }
+#Budapest { background: url("https://i.imgur.com/hTMgZl6.png") center no-repeat; background-size: cover; }
+#Munich { background: url("https://i.imgur.com/XaC3wBB.png") center no-repeat; background-size: cover; }
+#Zurich { background: url("https://i.imgur.com/6hKToHg.png") center no-repeat; background-size: cover; }
+#Amsterdam { background: url("https://i.imgur.com/RA55MRY.png") center no-repeat; background-size: cover; }
+#Brussels { background: url("https://i.imgur.com/DVxdhqA.png") center no-repeat; background-size: cover; }
+#Cancun { background: url("https://i.imgur.com/3EzZQyv.png") center no-repeat; background-size: cover; }
+#Boston { background: url("https://i.imgur.com/aLIyBOj.png") center no-repeat; background-size: cover; }
+#HongKong { background: url("https://i.imgur.com/C0tMw3x.png") center no-repeat; background-size: cover; }
+#Aruba { background: url("https://i.imgur.com/KJOqYwd.png") center no-repeat; background-size: cover; }
+#NewOrleans { background: url("https://i.imgur.com/sKgmpXh.png") center no-repeat; background-size: cover; }
+
+
+
+#c1-Aruba, #c3-Aruba {
+	float: left;
+	width: 30%;
+}
+
+#c2-Aruba {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 36%;
+}

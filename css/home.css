@@ -1,0 +1,111 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre');
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300');
+
+body {
+	margin: 25px;
+	background-color: #e8e8e8;
+	font-family: 'Lato', 'Muli', 'Pontano Sans';
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+#cover-photo {
+	background: url("https://i.imgur.com/x5enI6O.jpg") center no-repeat;
+	background-size: cover;
+	width: 60vw;
+	height: calc(100vh - 50px);
+	float: left;
+	border-radius: 2px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+#header {
+	margin: 0 5vw 5vh 0;
+}
+
+h1 {
+	color: #FFF;
+	font-size: 5vmax;
+	line-height: 5vmax;
+	padding: 5px;
+}
+
+#sections {
+	margin-left: 61vw;
+	text-align: center;
+}
+
+.section {
+	position: relative;
+	border-radius: 2px;
+	margin-top: 14px;
+	height: calc(25vh - 23px);
+	width: 100%;
+	display: table;
+}
+
+.section:hover h2 {
+	visibility: visible;
+	opacity: 1;
+}
+
+h2 {
+	display: table-cell;
+	vertical-align: middle;
+	color: #FFF;
+	font-size: 3.5vmax;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .3s, visibility .3s;
+}
+
+#bg1 {
+	background: url("https://i.imgur.com/lVbRzrq.jpg") center no-repeat;
+	background-size: cover;
+	margin-top: 0px;
+}
+#bg2 {
+	background: url("https://i.imgur.com/rPHQQiC.jpg") center no-repeat;
+	background-size: cover;
+}
+#bg3 {
+	background: url("https://i.imgur.com/loYM1I5.jpg") center no-repeat;
+	background-size: cover;	
+}
+#bg4 {
+	background: url("https://i.imgur.com/3fEqJqo.jpg") center no-repeat;
+	background-size: cover;	
+}
+
+#header1 {
+	background-color: rgba(249, 173, 169, 0.75);
+}
+#header2 {
+	background-color: rgba(171, 187, 159, 0.75);
+}
+#header3 {
+	background-color: rgba(132, 193, 177, 0.75);
+}
+
+a.fill-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+#name {
+	visibility: visible;
+	opacity: 1;
+	font-size: 4.5vmax;
+	background-color: rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,21 @@
+body {
+	background-color: #f7e5d2;
+}
+
+.selected, .selected:hover {
+	color: #F38A8A;
+}
+
+.column {
+	float: left;
+	width: 23.5%;
+}
+
+#c2 {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#c3 {
+	margin-right: 2%;
+}
