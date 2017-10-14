@@ -15,7 +15,7 @@ h1, h2 {
 }
 
 #cover-photo {
-	background: url("https://i.imgur.com/x5enI6O.jpg") center no-repeat;
+	background: url("https://i.imgur.com/muvSCC2.jpg") center no-repeat;
 	background-size: cover;
 	width: 60vw;
 	height: calc(100vh - 50px);
@@ -67,20 +67,20 @@ h2 {
 }
 
 #bg1 {
-	background: url("https://i.imgur.com/lVbRzrq.jpg") center no-repeat;
+	background: url("https://i.imgur.com/jQEkMPh.jpg?1") center no-repeat;
 	background-size: cover;
 	margin-top: 0px;
 }
 #bg2 {
-	background: url("https://i.imgur.com/rPHQQiC.jpg") center no-repeat;
+	background: url("https://i.imgur.com/FaTXOLV.jpg?1") center no-repeat;
 	background-size: cover;
 }
 #bg3 {
-	background: url("https://i.imgur.com/loYM1I5.jpg") center no-repeat;
+	background: url("https://i.imgur.com/RRBA5mU.jpg?1") center no-repeat;
 	background-size: cover;	
 }
 #bg4 {
-	background: url("https://i.imgur.com/3fEqJqo.jpg") center no-repeat;
+	background: url("https://i.imgur.com/wQhCgML.jpg?1") center no-repeat;
 	background-size: cover;	
 }
 
