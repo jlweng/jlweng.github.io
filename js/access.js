@@ -1,7 +1,7 @@
 function validatePassword() {
 	password = document.getElementById("psw").value;
 	if(password == 'm3ow') {
-		window.location.href = "home.html";
+		window.location.href = "home";
 	}
 }
 
