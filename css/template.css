@@ -6,7 +6,8 @@
 
 body {
 	margin: 0px;
-	background-color: #e8e8e8;
+	background-color: #fefefe;
+	background-repeat: repeat;
 	font-family: 'Lato', 'Muli', 'Pontano Sans';
 }
 
@@ -36,14 +37,23 @@ ul li {
 a {
 	text-decoration: none;
 	color: inherit;
+	transition: color 0.5s;
 }
 
-a:hover {
+a.home:hover {
 	color: #fff;
 }
 
-.selected, .selected:hover {
+a.food:hover {
 	color: #F38A8A;
+}
+
+a.travel:hover {
+	color: #bce8a9;
+}
+
+a.nyc:hover {
+	color: #6CDDC0;
 }
 
 .photos {
@@ -107,7 +117,7 @@ img {
 	margin: 0;
 	border-radius: 50%;
 	background-color: rgba(0, 0, 0, 0.1);
-	transition: background-color 0.2s, color 0.2s;
+	transition: background-color 0.5s, color 0.5s;
 }
 
 .vertical-nav-item:hover h3 {

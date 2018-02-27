@@ -3,11 +3,14 @@
 @import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
 @import url('https://fonts.googleapis.com/css?family=Muli');
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
 
 body {
 	margin: 25px;
-	background-color: #e8e8e8;
-	font-family: 'Lato', 'Muli', 'Pontano Sans';
+	background-color: #fefefe;
+	background: url("https://i.imgur.com/EjBIB6i.png") center repeat;
+	font-family: 'Sacramento', 'Lato', 'Muli', 'Pontano Sans';
+	letter-spacing: 1px;
 }
 
 h1, h2 {
@@ -60,10 +63,10 @@ h2 {
 	display: table-cell;
 	vertical-align: middle;
 	color: #FFF;
-	font-size: 3.5vmax;
+	font-size: 5vmax;
 	visibility: hidden;
 	opacity: 0;
-	transition: opacity .3s, visibility .3s;
+	transition: opacity .5s, visibility .5s;
 }
 
 #bg1 {
@@ -106,6 +109,7 @@ a.fill-div {
 #name {
 	visibility: visible;
 	opacity: 1;
-	font-size: 4.5vmax;
+	font-size: 4vmax;
 	background-color: rgba(0, 0, 0, 0.75);
+	font-family: 'Lato', 'Muli', 'Pontano Sans';
 }

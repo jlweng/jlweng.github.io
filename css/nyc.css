@@ -1,5 +1,6 @@
+
 body {
-	background-color: #dcf7f1;
+	background: url("https://i.imgur.com/aYA1lQQ.png") center repeat;
 }
 
 .selected, .selected:hover {
